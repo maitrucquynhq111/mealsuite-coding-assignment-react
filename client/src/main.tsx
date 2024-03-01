@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 import AppContext from './contexts/AppContext';
 
 import App from './app/app';
-import './output.css';
+import './styles.css';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
