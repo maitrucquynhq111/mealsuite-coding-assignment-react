@@ -9,3 +9,7 @@ export type Ticket = {
   assigneeId: null | number;
   completed: boolean;
 };
+
+export type RequestCreateTicket = {
+  description: string;
+};
